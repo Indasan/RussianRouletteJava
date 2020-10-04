@@ -110,7 +110,7 @@ public class MainActivity extends Activity {
         sounds = new SoundPool(5, AudioManager.STREAM_MUSIC,0);
     }
 
-    private void loadSounds(){
+    private void loadSounds(){ 
         sound_shot = sounds.load(this,R.raw.revolver_shot,1);
         sound_shot_false = sounds.load(this,R.raw.gun_false,1);
         sound_roll = sounds.load(this,R.raw.revolver_baraban,1);
